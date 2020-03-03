@@ -1,0 +1,22 @@
+1. RuntimeException클래스
+    :프로그래머의 실수로 발생한 예외
+
+  -ArrayIndexOutOfBoundsException : 배열의 범위를 벗어남
+  -NullPointerException : 값이 null인 참조변수 멤버를 호출
+  -ClassCastException : 클래스간의 형변환을 잘못함
+  -ArithmeticException : 정수를  0으로 나누려고함
+
+2. Exception 클래스
+    :사용자의 실수와 같은 외적인 요인에 의해 발생하는 예외
+
+  -FileNotFoundException : 존재하지 않는 파일의 이름을 입력
+  -ClassNotFoundException : 클래스의 이름을 잘못 적다
+  -DataFormatException : 입력한 데이터 형식이 잘못됨
+  
+
+
+<예외처리>
+ : 프로그램 실행 시 발생할 수 있는 예외에 대비해 코드를 작성하는 것
+ : 프로그램의 비정상 종료를 막고, 정상적인 실행상태를 유지
+ 
++하나의 try블럭에는 여러종류의 예외를 처리할 수 있도록 여러 catch를 사용가능
