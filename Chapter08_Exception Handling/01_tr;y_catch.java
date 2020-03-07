@@ -16,3 +16,4 @@ public class Main {
 	}
 	
 }
+//try사용후 catch로 여러 예외를 catch할수 있지만 위에서 한번 잡힌 예외는 잡을 수 없다
